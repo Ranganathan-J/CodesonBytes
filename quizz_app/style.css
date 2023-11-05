@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-color: aquamarine;
+}
+.container{
+    background: rgb(228, 215, 215);
+    margin: 100px auto 0;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    /* height: 100vh; */
+    border-radius: 25px;
+}
+
+.container h1{
+    font-size: 30px ;
+    border-bottom: 1px rgb(3, 3, 3) solid ;
+    color: blue;
+    padding-bottom: 30px;
+}
+
+.quiz h2{
+    font-size: 34px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: red;
+    /* border-bottom: 2px solid black; */
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    color: blue;
+    transition: all 0.3s;
+    font-size: 24px;
+    color: black;
+    justify-content: center;
+    /* align-items: center; */
+}
+.btn:hover:not(){
+    background-color: rgb(128, 255, 213);
+    color: black;
+
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#sumbtn{
+    
+  
+    width: 150px;
+    border: 0;
+    border-radius: 12px 15px;
+    background-color: rgb(11, 53, 241);
+    cursor: pointer;
+    height: 50px;
+    font-size: 25px;
+    transition: all 0.4s;
+    margin: 20px auto 0;
+    display: none;
+}
+#sumbtn:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+}
+
+
+.Correct{
+    background: rgb(86, 233, 110);
+}
+.inCorrect{
+    background: rgb(248, 109, 109);
+}
+
